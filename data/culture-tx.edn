@@ -1,0 +1,16 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "lso.dish.papa", :name "Papa", :country "LSO", :kind :dish, :summary "Corn-based staple dish of Basotho cuisine, comparable to ugali/polenta, typically served with accompaniments such as vegetables, beans or meat.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Lesotho", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.dish.likhobe", :name "Likhobe", :country "LSO", :kind :dish, :summary "Basotho stew made with beans, berries and sorghum.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Lesotho", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.dish.oxtail-stew", :name "Oxtail stew", :country "LSO", :kind :dish, :summary "Listed among the traditional foods of Basotho cuisine alongside curries and kebabs.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Lesotho", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.beverage.motoho", :name "Motoho", :country "LSO", :kind :beverage, :summary "Fermented sorghum porridge drink of Basotho cuisine, listed among the country's traditional beverages.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Lesotho", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.craft.mokorotlo", :name "Mokorotlo", :country "LSO", :kind :craft, :summary "Straw hat widely used for traditional Sotho clothing; the national symbol of Lesotho and the Basotho people.", :url "https://en.wikipedia.org/wiki/Mokorotlo", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.craft.basotho-blanket", :name "Basotho blanket", :country "LSO", :kind :craft, :summary "Distinctive woven blanket garment commonly worn by Sotho people in Lesotho and South Africa, evolved from traditional animal-skin cloaks and carrying significant ceremonial importance.", :url "https://en.wikipedia.org/wiki/Basotho_blanket", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.product.mohair", :name "Mohair", :country "LSO", :kind :product, :summary "Fibre from the Angora goat; Lesotho accounted for about 16% of world mohair production in 2022.", :url "https://en.wikipedia.org/wiki/Mohair", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.festival.morija-arts-cultural-festival", :name "Morija Arts & Cultural Festival", :country "LSO", :kind :festival, :summary "Annual event held in Morija, a village in the Maseru District of Lesotho.", :url "https://en.wikipedia.org/wiki/Morija_Arts_%26_Cultural_Festival", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "lso.heritage.sehlabathebe-national-park", :name "Sehlabathebe National Park", :country "LSO", :kind :heritage, :summary "Lesotho national park added to the UNESCO World Heritage Site Tentative List in 2008 (Mixed cultural + natural category), and part of the transboundary Maloti-Drakensberg World Heritage Site.", :url "https://en.wikipedia.org/wiki/Sehlabathebe_National_Park", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
