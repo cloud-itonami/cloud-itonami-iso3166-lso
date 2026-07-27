@@ -152,7 +152,7 @@
   (boolean
    (when-let [official (compute-contractor-registration-fee contractor-category)]
      (and (some? claimed-contractor-registration-fee)
-          (== (double claimed-contractor-registration-fee) (double official))))))
+          (money= claimed-contractor-registration-fee official)))))
 
 (defn contractor-registration-fee-mismatch-claim?
   "Does `engagement` declare `:seeking-contractor-registration? true`
