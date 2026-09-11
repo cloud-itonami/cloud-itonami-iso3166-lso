@@ -5,7 +5,7 @@ Independent public-sector market-entry compliance for Lesotho.
 - Public Procurement Regulations, 2007 (named directly by the Lesotho
   Legal Information Institute's (LesLII) own legislation-listing page;
   detailed section text sits behind a Cloudflare bot-challenge this
-  iteration could not read around — see `src/marketentry/facts.cljc`)
+  iteration could not read around — see `src/marketentry/facts.cljk`)
   / Ministry of Finance and Development Planning — own text: 'Ministry:
   Ministry of Finance and Development Planning ... Publication of
   procurement plans Procurement – Registration of suppliers and

@@ -6,7 +6,7 @@ procurement-plan publication) — the Public Procurement Regulations,
 2007 (LesLII, lesotholii.org) is the named legal basis; its own
 detailed section text could not be independently read this iteration
 (Cloudflare bot-challenge on LesLII's individual document pages, see
-`src/marketentry/facts.cljc`).
+`src/marketentry/facts.cljk`).
 
 Entity: Companies Register (Ministry of Trade & Industry,
 companies.org.ls) business/company registration, One-Stop Business
